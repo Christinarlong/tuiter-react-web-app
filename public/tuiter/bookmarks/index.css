@@ -1,0 +1,36 @@
+body {
+	background-color: black;
+	font-family: s-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.wd-post-header {
+	display: flex;
+	flex-direction: row;
+	color: rgb(110, 118, 125);
+	font-size: 15px;
+}
+.wd-icon-bar-comment {
+	color: rgb(110, 118, 125);
+	text-decoration: none;
+}
+.wd-icon-bar-retuit {
+	color: rgb(110, 118, 125);
+	text-decoration: none;
+}
+.wd-icon-bar-like {
+	color: rgb(110, 118, 125);
+	text-decoration: none;
+}
+.wd-icon-bar-share {
+	color: rgb(110, 118, 125);
+	text-decoration: none;
+}
+.wd-post-column {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+.wd-post-row {
+	display: flex;
+	flex-direction: row;
+}
