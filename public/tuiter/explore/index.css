@@ -1,11 +1,11 @@
-.search-bar-wrapper {
+.wd-search-bar-wrapper {
 	display: flex;
 	margin-left: 16px;
 	background-color: rgb(34, 34, 34);
 	justify-content: center;
 	margin-right: 16px;
 }
-.search-bar {
+.wd-search-bar {
 	outline: 0;
 	border: 1px solid grey;
 	color: white;
@@ -15,13 +15,13 @@
 	width: 70%;
 	height: 5vh;
 }
-.gear-icon {
+.wd-gear-icon {
 	color: antiquewhite;
 	margin-left: 90%;
 	align-self: center;
 	position: absolute;
 }
-.search-icon {
+.wd-search-icon {
 	color: antiquewhite;
 	position: absolute;
 	margin-left: -61%;
@@ -31,7 +31,7 @@
 body {
 	background-color: rgb(34, 34, 34);
 }
-.search-tabs-wrapper {
+.wd-search-tabs-wrapper {
 	display: flex;
 	align-content: space-between;
 	color: rgb(110, 118, 125);
@@ -41,38 +41,54 @@ body {
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	font-size: 15px;
 }
-.search-tabs {
+.wd-search-tabs {
 	padding: 16px;
 }
-.search-tabs-selected {
+.wd-search-tabs-selected {
 	padding: 16px;
 	color: rgb(29, 161, 242);
 	border-bottom: solid;
 }
-.suggested-posts-wrapper {
+.wd-suggested-posts-wrapper {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.suggested-post {
+.wd-suggested-post {
 	padding: 1rem;
 	border: 0.5px solid grey;
 	margin-left: 16px;
 	margin-right: 16px;
 }
-.suggested-post-title {
+.wd-suggested-post-title {
 	margin: 0;
 	color: white;
 }
-.suggested-post-header {
+.wd-suggested-post-header {
 	font-size: 13px;
 	color: rgb(110, 118, 125);
 }
-.suggested-post-footer {
+.wd-suggested-post-footer {
 	font-size: 13px;
 	color: rgb(110, 118, 125);
 }
-.author-header {
+.wd-author-header {
 	font-size: 13px;
-	color: white;
-	font-weight: bold;
+	color: rgb(110, 118, 125);
+}
+.wd-article-img {
+	height: 100px;
+	width: 100px;
+	align-self: flex-end;
+	border-radius: 15%;
+}
+.wd-author-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.wd-article-img-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.wd-article-title-b {
+	color: antiquewhite;
 }
