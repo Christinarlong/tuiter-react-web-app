@@ -1,0 +1,80 @@
+.wd-heading-title {
+	font-size: 20px;
+	color: white;
+	margin: 0;
+	padding-left: 16px;
+}
+.wd-heading {
+	border: 1px solid rgb(47, 51, 54);
+	padding-top: 1rem;
+	margin-left: 16px;
+	margin-top: 12px;
+	display: flex;
+	flex-direction: column;
+	font-family: s-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.wd-heading-username {
+	color: rgb(110, 118, 125);
+	font-size: 13px;
+	padding-bottom: 12px;
+	padding-left: 16px;
+}
+
+.wd-post-profile-picture {
+	border-radius: 48px;
+	height: 48px;
+	width: 48px;
+	padding-top: 12px;
+	padding-left: 16px;
+	padding-right: 1rem;
+}
+.wd-post-header {
+	color: rgb(110, 118, 125);
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.wd-heading-username-name-b {
+	color: white;
+	padding-right: 0.2rem;
+}
+.wd-post-body-img-wrapper {
+	display: flex;
+	flex-direction: column;
+	border: 0.5px solid lightgray;
+	width: 504px;
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+.wd-post-body-img {
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+	height: 264px;
+	width: 504px;
+}
+.wd-post-body-img-text {
+	padding-left: 12px;
+	padding-right: 12px;
+	color: rgb(110, 118, 125);
+	font-size: 15px;
+	width: fit-content;
+}
+.wd-post-body-img-text-title {
+	font-weight: bold;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: white;
+}
+.wd-post-body-img-text-body {
+	padding-bottom: 12px;
+}
+.wd-icon-bar-wrapper {
+	padding-top: 12px;
+	display: flex;
+	flex-direction: row;
+	width: 504px;
+	justify-content: space-evenly;
+}
